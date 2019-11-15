@@ -10,6 +10,10 @@
 
     <q-footer>
       <q-bar>
+        <q-btn dense flat @click="" :icon="`mdi-home`">
+          <tooltipper msg="Test" />
+        </q-btn>
+        <q-space></q-space>
         <q-btn-dropdown
           auto-close
           dense

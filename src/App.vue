@@ -214,7 +214,6 @@ export default {
   background-color: var(--color-bg);
   color: var(--color-default);
   font-family: "Open Sans", sans-serif;
-  min-width: 300px;
 }
 
 body::-webkit-scrollbar {
@@ -223,7 +222,6 @@ body::-webkit-scrollbar {
 #app::-webkit-scrollbar {
   display: block;
   width: 16px;
-  min-width: 300px;
 }
 ::-webkit-scrollbar {
   background-color: var(--color-scrollbar);

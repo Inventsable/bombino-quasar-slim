@@ -1,10 +1,11 @@
 <template>
-  <q-page>
-    <q-pull-to-refresh @refresh="refresh">
-      <quasar-logo />
-      <div class="absolute-center">Hello world</div>
-    </q-pull-to-refresh>
-  </q-page>
+  <q-pull-to-refresh style="height: 100%;" @refresh="refresh">
+    <q-page>
+      <div>
+        <quasar-logo id="logo" />
+      </div>
+    </q-page>
+  </q-pull-to-refresh>
 </template>
 
 <script>
@@ -45,23 +46,5 @@ export default {
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
-}
-.text-center {
-  display: flex;
-  justify-content: center;
-}
-
-.full-step {
-  width: 100%;
-  height: 76vh;
-}
-
-.q-stepper__header {
-  display: none;
-}
-
-.q-stepper {
-  background: var(--color-bg);
-  color: var(--color);
 }
 </style>
